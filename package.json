@@ -1,0 +1,14 @@
+{
+  "name": "product-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "cd server && nodemon server.js",
+    "build": "cd client && npm build",
+    "client" : "cd client && npm start"
+  },
+  "author": "laviel",
+  "license": "ISC"
+}
